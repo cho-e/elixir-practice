@@ -15,7 +15,7 @@ config :practice, PracticeWeb.Endpoint,
   cache_static_manifest: "priv/static/cache_manifest.json",
   root: ".",
   version: Application.spec(:phoenix_distillery, :vsn),
-  url: [host: "http://hw03.subtle.fun", port: 80]
+  url: [host: "hw03.subtle.fun", port: 80]
 
 # Do not print debug messages in production
 config :logger, level: :info
