@@ -3,7 +3,7 @@ defmodule PracticeWeb.PageControllerTest do
 
   test "GET /", %{conn: conn} do
     conn = get conn, "/"
-    assert html_response(conn, 200) =~ "cs3650"
+    assert html_response(conn, 200) =~ "cs4550"
   end
 
   test "double 5", %{conn: conn} do
