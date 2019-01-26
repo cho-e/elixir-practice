@@ -1,0 +1,16 @@
+[Unit]
+Description=HW03 Practice App
+
+[Service]
+Type=simple
+User=practice
+Group=practice
+Restart=on-failure
+Environment=MIX_ENV=prod "PORT=4791"
+Environment=LANG=en_US.UTF-8
+
+WorkingDirectory=/home/practice/elixir-practice
+ExecStart=/home/practice/elixir-practice/start.sh
+
+[Install]
+WantedBy=multi-user.target
