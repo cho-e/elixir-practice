@@ -1,6 +1,6 @@
 defmodule Practice.Palindrome do
 
-  def palindrome?(str) do
+  def palindrome(str) do
     reverse = str
     |> String.downcase()
     |> String.reverse()

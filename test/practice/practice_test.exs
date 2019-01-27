@@ -28,7 +28,7 @@ defmodule Practice.PracticeTest do
   end
 
   test "check for a palindrome" do
-    assert palindrome?("hello") == false
-    assert palindrome?("hellolleh") == true
+    assert palindrome("hello") == false
+    assert palindrome("hellolleh") == true
   end
 end
